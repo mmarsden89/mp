@@ -44,9 +44,16 @@
   bottom: 0;
   color: white;
 
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.footer > div:last-child {
+  padding-right: 10px;
+}
+/* 
 .c {
   text-align: center;
   margin-top: 10px;
@@ -56,4 +63,4 @@
   position: absolute;
   bottom: 10px;
   right: 5px;
-}
+} */
